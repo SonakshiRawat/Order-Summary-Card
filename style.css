@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    background:url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-size:16px;
+    font-family:'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+.card{
+    background-color: white;
+    display: flex;   
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;    
+    overflow: hidden;
+    line-height: 25px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.2s;
+}
+
+h1{
+    padding:30px 20px;
+    color:  hsl(223, 47%, 23%);
+}
+.text{
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    padding: 0px 40px;
+    max-width:300px;
+    text-align: center;
+}
+
+.plan{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    padding: 18px 40px;
+}
+
+ .sub-plan{
+    text-align: left;
+    padding: 0px 5px;
+    color: hsl(224, 23%, 55%);
+}
+ .text2{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    font-size: 15px;
+    font-weight: bold;
+}
+ a:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius:6%;
+    border-top-right-radius:6% ;
+    width: 400px;
+}
+
+
+.btn{
+    width:80%;
+    height: 45px;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition:all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn1{
+    color:white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition:all 0.3s ease 0s;
+}
+.btn1:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  .btn2{
+    color: hsl(224, 23%, 55%);
+    background: hsl(225, 100%, 94%);
+    margin-top: 10px;
+    transition:all 0.3s ease 0s;
+    text-align: center;
+
+}
+.btn2:hover{
+    color: hsl(223, 47%, 23%);
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-7px);
+
+}
+
+@media(max-width:426px){
+  .card{
+      width: 300px;
+  }
+
+  .img1{
+      width:300px;
+  }
+}
