@@ -8,7 +8,7 @@
  <h3>Screenshot</h3>
  <img src="Capture.JPG">
  <hr>
- <h3>Live URL link - <a href=" https://sonakshirawat.github.io/Order-Summary-Card/">Click here </a>
+ <h3>Live URL link - [Click here](https://sonakshirawat.github.io/Order-Summary-Card/)
  </h3>
  <hr>
  <h3>My Process</h3>
