@@ -8,7 +8,7 @@
  <h3>Screenshot</h3>
  <img src="Capture.JPG">
  <hr>
- <h3>Live URL link -</h3> <a href="https://sonakshirawat.github.io/Order-Summary-Card/">Link</a>
+ <h3>Live URL link -</h3> <a href="https://sonakshirawat.github.io/Order-Summary-Card/">Click here</a>
  <hr>
  <h3>My Process</h3>
  <p> Started with writing down the markup in HTML. Then using CSS custom properties designed desktop view for the given problem. Later with the help of Chrome Dev Tools it was made responsive for every aspect ratio. </p> 
